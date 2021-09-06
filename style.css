@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    background: url(../img/image18.png);
+}
+.container__block{
+    max-width: 1500px;
+    margin: auto;
+}
+.header__block{
+    background:#ffffff;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 45%);
+}
+.header__line{
+    display: flex;
+    justify-content: space-around;
+    
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #FF9900;
+    max-width: 1440px;
+    margin: auto;
+}
+.export{
+    display: flex;
+    text-decoration: none;
+    align-content: center;
+    align-items: center;
+}
+.export__line::before{
+    content:'';
+    height: 50px;
+    border: 1px solid #FF9900;
+}
+.export__block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+    margin-right: 10px;
+    margin-left: 35px;
+}
+.text__titel{
+    font-size: 18px;
+    
+}
+.export__text{
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px;
+    
+}
+.export__img{
+    width: 25px;
+   
+}
+.phone{
+    font-weight: bold;
+}
+.header__mene{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    padding: 18px 0;
+}
+.haeder__mene__link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+.img__mene{
+    margin-right: 6px;
+}
+.img__mene__link{
+    margin-left: 15px;
+}
+.orange{
+    padding: 4px 17px;
+    background: #FF9900;
+    border-radius: 10px;
+    color:#ffffff;
+}
+.offer{
+    margin-top: 51px;
+    background: #ffffff;
+}
+.container{
+    max-width: 1410px;
+    margin: auto;
+}
+.offer__block{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 29px;
+    padding-bottom: 32px;
+   
+}
+.payment__block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #FF9900;
+   
+}
+.payment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center
+}
+.payment__text{
+    padding-top: 12px;
+    font-size: 24px;
+    line-height: 120%;
+    color: #000000;
+}
+.promo__title {
+    max-width: 880px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 72px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.promo__desc {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    margin-bottom: 14px;
+}
+.primary__color {
+    color: #FF9900;
+}
+.return__money {
+    max-width: 1410px;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding-top: 17px;
+    padding-bottom: 18px;
+    padding-left: 20px;
+}
+.return__money__text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.detailed {
+    font-weight: bold;
+}
+
+.gift__block {
+    margin-top: 11px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+.gift__title__block {
+    padding-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 37px;
+}
+.gift__title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+    color: #D39254;
+    margin-right: 20px;
+}
+
+.gift__content__block {
+    display: flex;
+    max-width: 770px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 49px;
+}
+.gift__content {
+    margin-left: 50px;
+    display: flex;
+    max-width: 330px;
+    width: 100%;
+    justify-content: space-between;
+}
+.content__gift {
+    margin-left: 50px;
+    font-size: 24px;
+    line-height: 150%;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+.gift__button__block {
+    padding-bottom: 48px;
+    padding-left: 39px;
+}
+.primary__button {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF4D00;
+    box-shadow: 0px 0px 20px rgba(255, 76, 0, 0.8);
+    border-radius: 30px;
+    margin-right: 58px;
+}
+.gift__link {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #CD823B;
+}
