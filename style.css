@@ -96,8 +96,8 @@ html{
     color:#ffffff;
 }
 .offer{
-    margin-top: 51px;
-    background: #ffffff;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 .container{
     max-width: 1410px;
@@ -109,6 +109,10 @@ html{
     padding-top: 29px;
     padding-bottom: 32px;
    
+}
+.promo{
+    padding-bottom: 51px;
+    background: url(../img/Vecto2.png) no-repeat center/cover;
 }
 .payment__block{
     display: flex;
@@ -234,4 +238,162 @@ html{
     text-align: center;
     text-decoration-line: underline;
     color: #CD823B;
+}
+.reviews{
+    margin-top: 30px;
+    background: #FFFFFF url(../img/Vecto2.png) no-repeat center/cover;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+.manager__reviews__block{
+    display: flex;
+    padding-top: 50px;
+}
+.manager__block{
+    width: 596px;
+    height: 745px;
+    margin-left: -192px;
+    background: linear-gradient(0deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 38.59%), url(../img/image27.png) no-repeat center/cover;
+}
+.manager__block{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin-right: 30px;
+    padding: 0 112px;
+    padding-top: 384px;
+    
+}
+.manager__text{
+    padding: 9px 56px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 120%;
+    color: #000000;
+    margin-right: -87px;
+}
+.manager__titel{
+    width: 220px;
+    padding: 9px 12px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 120%;
+    color: #000000;
+    margin-top: 5px;
+    text-align: center;
+    margin-right: -87px;
+}
+.reviews__text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 120%;
+    color: #000000;
+    margin-left: -70px;
+}
+.positive__reviews{
+    font-weight: bold;
+}
+.positive__reviews__text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 120%;
+    color: #000000;
+}
+.block__card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 27px;
+}
+.reviews__block__card{
+    width: 330px;
+    height: 220px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 0 18px;
+    padding-top: 23px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+.guarantee{
+    display: flex;
+    align-items: center;
+}
+.guarantee__block{
+    min-width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #FF9900;
+    margin-right: 20px;
+
+}
+.guarantee__text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 120%;
+    color: #000000;
+}
+.cauldrons__block{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    color: #000000;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    max-width: 294px;
+    
+}
+.warranty{
+    color: #FF9900;
+    text-align: center;
+}
+.installmentplan__slip{
+    display: flex;
+    justify-content: space-around;
+}
+.installmentplan__block__text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.installmentplan{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+.installmentplan__titel{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    margin-left: 10px;
+}
+.installmentplan__slip__block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
