@@ -6,7 +6,7 @@
 }
 
 html{
-    background: url(../img/image18.png);
+    background: url(img/image18.png);
 }
 .container__block{
     max-width: 1500px;
@@ -112,7 +112,7 @@ html{
 }
 .promo{
     padding-bottom: 51px;
-    background: url(../img/Vecto2.png) no-repeat center/cover;
+    background: url(img/Vecto2.png) no-repeat center/cover;
 }
 .promo__title {
     position: relative;
@@ -123,7 +123,7 @@ html{
     content: '';
     width: 730px;
     height: 640px;
-    background: url(../img/promo_block.png) no-repeat center/cover;
+    background: url(img/promo_block.png) no-repeat center/cover;
     top: -75px;
     right: -650px;
     z-index: -1;
@@ -267,7 +267,7 @@ html{
 }
 .reviews{
     margin-top: 30px;
-    background: #FFFFFF url(../img/Vecto2.png) no-repeat center/cover;
+    background: #FFFFFF url(img/Vecto2.png) no-repeat center/cover;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 .manager__reviews__block{
