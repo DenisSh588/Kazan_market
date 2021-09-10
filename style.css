@@ -13,6 +13,8 @@ html{
     margin: auto;
 }
 .header__block{
+    position: relative;
+    z-index: 99;
     background:#ffffff;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -122,11 +124,11 @@ html{
     position: absolute;
     content: '';
     width: 730px;
-    height: 640px;
-    background: url(img/promo_block.png) no-repeat center/cover;
-    top: -75px;
+    height: 746px;
+    background: url(img/promo-block.png) no-repeat center/cover;
+    top: -169px;
     right: -650px;
-    z-index: -1;
+    z-index: -3;
 }
 .payment__block{
     display: flex;
@@ -460,4 +462,163 @@ html{
 }
 .slip__text{
     margin-top: 10px;
+}
+.counterfeits__block{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    margin-bottom: 118px;
+}
+.counterfeits__block__text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 30px;
+}
+.counterfeits__orange {
+    color: #FF4D00;
+}
+.counterfeits__text {
+    margin-left: -30px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+}
+.counterfeits__title {
+    padding-left: 20px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 120%;
+}
+.counterfeits__block__difference {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    padding-top: 0;
+}
+.counterfeits__block__difference__description h4 {
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 120%;
+}
+.counterfeits__block__difference__description p {
+    max-width: 600px;
+    font-size: 18px;
+    line-height: 120%;
+}
+.counterfeits__block__difference img:nth-of-type(2) {
+    margin-left: -50px;
+}
+.counterfeits__block__difference img:last-of-type {
+    margin-left: 100px;
+}
+.discount {
+    background: #FF9900;
+}
+.discount__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 21px 118px;
+}
+.discount__block p {
+    text-align: center;
+    font-size: 48px;
+}
+.catalog__block {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 255px;
+}
+.catalog__title {
+    font-size: 48px;
+}
+.catalog__advices {
+    padding: 48px 176px;
+}
+.catalog__advices a {
+    margin-right: 50px;
+    font-size: 20px;
+    color: #FF9900;
+}
+.catalog__small {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 7px 31px;
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    z-index: -5;
+}
+.catalog__small__icon {
+    padding: 18px;
+    border: 1px solid #FF9900;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+.catalog__small__icon::after {
+    position: absolute;
+    content: '';
+    background: #FF9900;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: -40px;
+    margin-top: -8px;
+    z-index: -1;
+}
+.catalog__small p {
+    margin-left: 22px;
+}
+.catalog__kazans__row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.catalog__kazan__card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-bottom: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.catalog__kazan__img {
+    width: 290px;
+    height: 200px;
+    background: #C4C4C4;
+    border-radius: 10px;
+}
+.catalog__kazan__card h5 {
+    padding: 10px;
+    padding-bottom: 5px;
+    font-size: 24px;
+    text-align: center;
+}
+.catalog__kazan__description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 35px;
+}
+.catalog__kazan__info {
+    display: flex;
+    flex-direction: column;
+    background: #F8F8F8;
+    border-radius: 10px;
+}
+.info__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info__row b {
+    text-align: right;
 }
