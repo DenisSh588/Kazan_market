@@ -1016,6 +1016,19 @@ html{
     justify-content: flex-end;
     
 }
+.pecial__ovens__nav__link__special{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    background: transparent;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
 .your__kit{
     padding-left: 50px;
     border-left: 1px solid #000000;
@@ -1036,7 +1049,7 @@ html{
     margin-left: 48px;
 }
 .special__ovens__text{
-    max-width: 640px;
+    max-width: 641px;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -1047,6 +1060,57 @@ html{
 .special__ovens{
     margin-top: 71px;
 }
-.ovens__nav__img{
-    width: 40px;
+.pecial__ovens__nav{
+   display: flex;
+   justify-content: space-between;
+   background: rgb(255, 255, 255);
+   border-radius: 10px;
+  
 }
+.pecial__ovens__nav__link{
+    
+    display: flex;
+    align-items: center;
+    padding: 24px 31px;
+    text-decoration: none;
+    color: #000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 120%;
+}
+.pecial__ovens__nav__link:hover{
+    background: #FF9900;
+    cursor: pointer;
+    
+}
+.ovens__nav{
+    position: relative;
+}
+.ovens__nav::after{
+    position: absolute;
+    content: '';
+    border-left: 1px solid #000000;
+    height: 60px;
+    left: 1px;
+}
+.discount__text{
+    text-decoration: line-through;
+    text-decoration-color: crimson;
+}
+.discount__oven{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.discount__oven__block{
+    padding: 21px 0px;
+}
+.catalog__kazan__description__oven{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
